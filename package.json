@@ -1,0 +1,23 @@
+{
+  "name": "code-exchange",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Godwin Malik <despeauxz@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^6.5.0",
+    "@types/ncp": "^2.0.2",
+    "@types/node": "^12.12.3",
+    "lerna": "^3.18.3",
+    "ncp": "^2.0.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.4"
+  },
+  "dependencies": {
+    "commander": "^3.0.2",
+    "inquirer": "^7.0.0"
+  },
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  }
+}
